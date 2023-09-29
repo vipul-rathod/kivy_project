@@ -1,0 +1,13 @@
+<MyButton@Button>:
+    font_size: 32
+    color: 0.8,0.9,0,1
+    size: 100, 50
+
+<MyWidget>:
+    MyButton:
+        text: 'Hello'
+        pos: root.x, root.top - self.height
+
+    MyButton:
+        text: 'World!'
+        pos: root.right - self.width, root.y
